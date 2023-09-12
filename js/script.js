@@ -20,7 +20,8 @@ const keyframes = {
   // 6-8
   // rotate: ['x 360deg, 0'],
   // translate: ['0 50px', 0],
-  color: ['#f66', '#fc2', '#0c6', '#0bd']
+  color: ['transparent', '#fff'],
+  backgroundPosition:['100% 0', '0 0'],
 };
 // 6-7
 const options = {

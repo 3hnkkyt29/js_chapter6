@@ -17,11 +17,18 @@ Web Animations APIの基本の書き方
 const heading = document.querySelector('#heading');
 const keyframes = {
   // opacity: [0,1], //開始時は0＝透明、終了時は1＝不透明
-  // 6-8
+  // 6-8 背景が伸びる
   // rotate: ['x 360deg, 0'],
   // translate: ['0 50px', 0],
-  color: ['transparent', '#fff'],
-  backgroundPosition:['100% 0', '0 0'],
+  // color: ['transparent', '#fff'],
+  // backgroundPosition:['100% 0', '0 0'],
+  // ６−８　ふよふよ動く
+  borderRadius: [
+    '20% 50% 50% 70%/50% 50% 70% 50%',
+    '50% 20% 50% 50%/40% 40% 60% 60%',
+    '50% 40% 20% 40%/40% 50% 50% 80%',
+    '50% 50% 50% 20%/40% 40% 60% 60%',
+    ], //楕円の半径を少しずつ変更している
 };
 // 6-7
 const options = {

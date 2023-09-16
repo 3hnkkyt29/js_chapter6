@@ -1,4 +1,5 @@
-const items = document.querySelectorAll('img-item');
+const items = document.querySelectorAll('.img-item');
+// // cssファイルと同様「.img-item」にする必要あり、「.」忘れない
 
 for (let i = 0; i < items.length; i++) {
   const keyframes = {

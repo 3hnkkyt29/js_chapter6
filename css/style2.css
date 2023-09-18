@@ -1,5 +1,6 @@
 .grid {
   display: grid;
+  /*要素を格子状にする*/
   gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   max-width: 1020px;
@@ -8,7 +9,9 @@
 }
 .img-item {
   opacity: 0;
+  /*透明度*/
   width: 100%;
   aspect-ratio: 4 / 3;
+  /*縦横比*/
   object-fit: cover;
 }

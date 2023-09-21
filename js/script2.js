@@ -8,7 +8,9 @@ for (let i = 0; i < items.length; i++) {
   };
   const options = {
     duration: 600, //再生時間600ミリ秒
-    // delay: i * 300,
+    delay: i * 300,//delay=アニメーションの開始時間を遅らせることができる
+    //300=0.3秒
+    // delay: 300　と記述すると全ての画像が300億れで表示されるので変数iをつける
     fill: 'forwards', //再生後不透明を維持
   };
   items[i].animate(keyframes, options);

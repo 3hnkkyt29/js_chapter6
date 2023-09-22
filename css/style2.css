@@ -8,8 +8,8 @@
   padding: 30px;
 }
 .img-item {
-  opacity: 0;
-  /*透明度*/
+  /*opacity: 0;*/ /*透明度*/
+  filter: blur(20px);
   width: 100%;
   aspect-ratio: 4 / 3;
   /*縦横比*/
